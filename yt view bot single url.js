@@ -27,7 +27,7 @@ const faker = require('faker');
 
   await page.setExtraHTTPHeaders(headers);
 
-  await page.goto('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+  await page.goto('https://youtu.be/_reydrC_nYo?si=X9vqiSpl8VRA1RnB');
 
   await page.waitForSelector('video');
 
